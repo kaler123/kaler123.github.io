@@ -1,7 +1,63 @@
 <html>
-<head>
-</head>
-<body>
-</body>
-
-</html>
+<! -- Kritin Kaler--- 400450642---->
+	<head>
+	
+		<title> Kritin Kaler Lab#1 </title>
+	<body>
+	 <style>
+		h1,h2,h3,h5,h6
+		{
+			font-family: 'Times New Roman',serif;
+		}
+        body 
+		{
+            font-family: Arial, sans-serif;
+        }
+	</style>
+    
+	<img src = "C:\Users\User\Desktop\Lab1\IMG_0585.jpg"align = "left" width ="120" length ="120"style ="float:left; margin-right:16px"/></br> <h1>Kritin Kaler </h1>
+	
+	</br><h2>Education</h2>
+	<p> High School: Moscrop Secondary School (Vancouver, BC)</br>
+	College: McMaster University </br>
+	University degree and specialization: Btech - Automation Systems Engineering
+	</p>	
+	<h2>Work</h2>
+	<p>
+	<h3>Co-ops/Paid Jobs:</h3><strong><em>Software Intern @ CERO Smart Mobility during 2024 summer --></strong></em>	
+	<a href ="https://cerotechnology.com/">The companies Website</a></br>
+	<ul>
+	<li>using GitHub to Upolad code</li>
+	<li>Merging Code</li>
+	<li>Making code (Ty) using specifications</li>
+	</ul>
+	
+	<h3>Unpaid jobs:</br></h3>
+	
+	<strong><em>Garderner:</strong></em>
+	<ul>
+	<li>Mowing the lawn</li>
+	<li>Taking out weeds/ any plant killers</li>
+	<li>Planting new plants and vegetables</li>
+	</ul>
+	<strong><em>Basketball Score Keeper</strong></em>:
+	<ul>
+	<li>Keeping overall score of a basketball game</li>
+	<li>Keeping track of player stats</li>
+	<li>Reffing (if needed)</li>
+	</ul>	
+	</p>
+	<h2> Hobbies</h2>
+	<ol>
+	<li>Basketball(Hobbies): I like playing pickup basketball with my friends and used to play organized ball during high school.</li>
+	</br><li>Planes/Flying(Interest): I am currently looking into flying classes to learn how to fly a non commercial plane.</li>
+	</br><li>CERO Smart mobilty(Professional Assosications): As seen earlier I worked as an intern there as a part of the co-op program.
+	</li>
+	</br><li>Chess Club(Clubs):I Was part of the chess club in high school.</li>
+	</br></ol>
+	<footer>
+	<p>&copy; Kritin Kaler</p>
+	</footer>
+	
+	</body>
+	</hmtl>
