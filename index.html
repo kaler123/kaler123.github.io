@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--Kritin Kaler 400450642-->
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Lab3</title>
+    <style>
+        #d1
+        {
+            border:2px solid blue;
+            background-color: lightgrey;
+            width: 1000px;
+
+
+        }
+        #d2
+        {
+            border:2px solid blue;
+            background-color: lightgrey;
+            align: right;
+            width: 350px;
+
+        }
+
+    </style>
+    <h3>ACME Corporation - Lab Analysis</h3>
+</head>
+
+<body>
+<form action="echo_lab3.php" method="post">
+    <fieldset id="d1">
+        <legend>Step 1:Identification</legend>
+
+            <td>Employee ID: </td>
+            <td><input type="int" name="EmployeeIDField" size = "25"></td>
+            <td>Employee Name: </td>
+            <td><input type="text" name="EmployeeNameField" size = "25"></td>
+
+    </fieldset>
+
+    <fieldset id="d1" height = "500px">
+        <legend>Step 2:Metal Analysis Selection</legend>
+            <tr>
+                <td>Normal</td>
+            <td><input type="checkbox" name="NormalField" ></td>
+            <td>Duplicate</td>
+            <td><input type="checkbox" name="DuplicateField" ></td>
+            <td>ExtraSample: </td>
+            <td><input type="checkbox" name="ExtraSampleField" ></td>
+            <td>Emergency</td>
+            <td><input type="checkbox" name="EmergencyField" ></td>
+            </tr>
+
+        <tr>Sample Bottle ID:
+       <input type="number" name="SampleBottleIDField" size = "25">
+        </tr>
+        <tr>Sample Date:
+         <input type="date" name="SampleDateField">
+        </tr>
+        <tr>Sample Time: <input type="time" name="SampleTimeField" ></tr>
+
+        <fieldset id="d2" >
+            <legend>Analysis Required</legend>
+                <tr><td>Select all metal samples analysis that apply:</td></tr>
+                <tr>
+                    <td>Fe-Iron</td>
+                    <td><input type="checkbox" name="IronField" ></td>
+                </tr>
+                <tr>
+                    <td>Mg-Magnesium</td>
+                    <td><input type="checkbox" name="MagnesiumField" ></td>
+                </tr>
+                <tr>
+                    <td>Cd-Cadmium </td>
+                    <td><input type="checkbox" name="CadmiumField" ></td>
+                </tr>
+                <tr>
+                    <td>Hg-Mercury</td>
+                    <td><input type="checkbox" name="MercuryField" ></td>
+                </tr>
+        </fieldset>
+    </fieldset>
+    </br>
+
+    <fieldset id = "d1">
+        <legend>Step 3: Other Information & submission</legend>
+            <td>Reason</td>
+            <td>
+                <select name="Reason">
+                    <option value="Internal Sampling">Internal Sampling</option>
+                    <option value="Government Inspection">Government Inspection</option>
+                    <option value="QA/QC">QA/QC</option>
+                </select>
+            </td>
+        </br>
+        </br>
+            <td>Comments:</td>
+            <td>
+                <textarea name="Comments" rows="10" cols="35"></textarea>
+            </td>
+    </fieldset>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset Form Data to deafaults">
+    </br>
+
+    <p><a href="https://acme.com/">acme.com </a>Acme Corp 801 Industrial Drive Whitehorse, YK Y1A 3M1 kalerk@mcmaster.ca</p>
+</form>
+
+</body>
+</html>
